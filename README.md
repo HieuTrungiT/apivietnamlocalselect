@@ -1,10 +1,13 @@
+# Vietnam local selector - JavaScript plugin
+
+*Create HTML Select element for Vietnam province, district and ward.*
 ### Demo
 https://lengochuy1302.github.io/apivietnamlocalselect/
 
-### JS
-```js
-<script src="/selectvietnam.js"></script>
-```
+## Basic usage
+First, create 3 HTML Select elements for province, district and ward with name 'ls_province', 'ls_district' and 'ls_ward' respectively:
+
+
 ### HTML
 ```html
  <form>
@@ -87,4 +90,12 @@ https://lengochuy1302.github.io/apivietnamlocalselect/
                 <option value="" hidden="">Ward</option>
             </select>
 </form>
+```
+
+
+
+Finally, include the plugin to your document,create instance of the plugin and pass the identify of selectors to an object as parameter:
+### JS
+```js
+<script src="/selectvietnam.js"></script>
 ```
