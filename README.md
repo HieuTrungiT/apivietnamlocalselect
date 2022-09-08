@@ -7,6 +7,10 @@ https://lengochuy1302.github.io/apivietnamlocalselect/
 ## Basic usage
 First, create 3 HTML Select elements for province, district and ward with name 'ls_province', 'ls_district' and 'ls_ward' respectively:
 
+### Link API JS
+```js
+<script src="https://pure-refuge-24132.herokuapp.com/assets/selectvietnam-74c814e1b0e59704e162a08917b5f3ceb74b39a2749cc1b0c78f9ea5466d64af.js"></script>
+```
 
 ### HTML
 ```html
